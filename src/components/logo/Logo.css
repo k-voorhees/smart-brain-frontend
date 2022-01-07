@@ -1,0 +1,12 @@
+.Tilt {
+    height: 150px;
+    width: 150px;
+    background: rgb(18,65,67);
+    background: linear-gradient(90deg, rgba(18,65,67,1) 0%, rgba(65,125,96,1) 36%, rgba(192,247,183,1) 100%);
+}
+
+/*
+this is the css styling for the tilting object with our logo
+set the size for the tile
+background color is just going to match the whole page background, it keeps the same color scheme and breaks up the solid feel
+*/

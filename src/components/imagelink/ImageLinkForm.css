@@ -1,0 +1,28 @@
+.form {
+    width: 700px;
+    
+    background:
+    radial-gradient(black 15%, transparent 16%) 0 0,
+    radial-gradient(black 15%, transparent 16%) 8px 8px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 0 1px,
+    radial-gradient(rgba(255,255,255,.1) 15%, transparent 20%) 8px 9px;
+    background-color:#282828;
+    background-size:16px 16px;
+    
+}
+
+button {
+    background: rgb(18,65,67);
+    background: linear-gradient(90deg, rgba(18,65,67,1) 0%, rgba(65,125,96,1) 36%, rgba(192,247,183,1) 100%);
+    color: black;
+    border: none;
+}
+
+
+/*
+this is the css styling for our input box and button
+background is a css pattern we found online. we can change the colors if we want., but i did not
+we set the width of the entire box to a static 700px
+
+we override the button tag to add styling to the specific button on the importlink component.
+*/
