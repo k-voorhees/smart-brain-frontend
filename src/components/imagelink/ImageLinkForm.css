@@ -18,6 +18,10 @@ button {
     border: none;
 }
 
+li {
+    text-align: center;
+    text-decoration: none;
+}
 
 /*
 this is the css styling for our input box and button
