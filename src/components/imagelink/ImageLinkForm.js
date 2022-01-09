@@ -7,6 +7,12 @@ const ImageLinkForm = ({onInputChange, onButtonSubmit}) => {
             <p className='f3'>
                 {'This is a Magic Brain. It will detect faces in the pictures you give it. Try it out!'}
             </p>
+            <ol>
+                <li>Find any weblink to an image</li>
+                <li>Copy and Paste that link in this text box</li>
+                <li>Wait for the AI to do its magic</li>
+            </ol>
+            <p>You can give it a try with this link: https://vignette.wikia.nocookie.net/starwars/images/2/20/LukeTLJ.jpg/revision/latest?cb=20170927034529</p>
             <div className='center'>
                 <div className='form center pa4 br3 shadow-5'>
                     <input className='f4 pa2 w-70 center' type='text' onChange={ onInputChange }/>
